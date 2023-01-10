@@ -1,7 +1,10 @@
+#program to return factorial of 10 numbers
 def factorial(n):
 	if n==0 :
 		result=1
 	else:
 		result=n*factorial(n-1)
 	return result
-print(factorial(5))
+	
+for i in range(10):
+	print('factorial of {} is {}'.format(i,factorial(i)))
