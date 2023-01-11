@@ -7,4 +7,7 @@ for i in range(n):
 	  #print(i+1,end=' ')    # right angle triangle of 1,2 2,3 3 3
 	  #print('*',end=' ')    # right angle triangle of *   
 	  print(n,end=' ')       # right angle triangle of 5    
+	  
+	 #print(chr(65+i),end=' ') # PRINT A BB CCC
+	 #print(chr(65+j),end=' ') # PRINT A AB ABC
 	print()
