@@ -1,4 +1,5 @@
 #pattern programs
+#n=int(input('enter any number:'))
 n=5
 for i in range(n):
 	for j in range(i+1):
