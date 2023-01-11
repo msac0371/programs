@@ -2,8 +2,8 @@
 n=5
 for i in range(n):
 	for j in range(i+1):
-	  #print(j+1,end=' ')
-	  #print(i+1,end=' ')
-	  #print('*',end=' ')
-	  print(n,end=' ')
+	  #print(j+1,end=' ')    # right angle triangle of 1,1 2,1 2 3 
+	  #print(i+1,end=' ')    # right angle triangle of 1,2 2,3 3 3
+	  #print('*',end=' ')    # right angle triangle of *   
+	  print(n,end=' ')       # right angle triangle of 5    
 	print()
