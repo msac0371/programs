@@ -11,3 +11,10 @@ for i in range(n):
 	 #print(chr(65+i),end=' ') # PRINT A BB CCC
 	 #print(chr(65+j),end=' ') # PRINT A AB ABC
 	print()
+
+#begins with digit or not
+s='0abcd'
+
+if s[0].isdigit()==True:
+  
+	print('string begins with digit')
