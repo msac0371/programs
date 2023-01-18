@@ -1,0 +1,40 @@
+
+reverse a string
+
+#using slice operator 
+#s[begin:end:step] returns from begint to end-1
+#  01234567
+# -87654321(negative) 
+
+#s=input('enter string to reverse')		
+s='abcdefgh'
+print(s[::-1])   #slice step cant be zero -1 reverse 1 forward
+
+
+
+#reversed function
+
+r=reversed(s)  		#will reverse contents of string
+output=''.join(r)	#will join contents using empty separator
+print(output)
+
+
+#
+s='abcde'
+output=''		#empty string
+i=len(s)-1		#last character
+while i>=0:
+	output=output+s[i]
+	i=i-1
+print(output)
+	
+
+
+#reverse order of words
+s='learning python is very easy'
+l=s.split() #split string into list based on space separator
+print(l)
+l1=l[::-1]#reverse order of elements in list
+print(l1)
+output=' '.join(l1)#join list elements based on space separator
+print(output)
