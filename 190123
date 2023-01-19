@@ -1,0 +1,13 @@
+#program to list duplicate items in list
+list=[10,20,20,5,10,5,85,9]     #input
+newlist=[]                       #empty list
+duplist=[]                      #empty list
+
+for i in list:                  
+	if i not in newlist:  
+		newlist.append(i)     #add items to newlist
+	else:
+		duplist.append(i)     #if duplicate found add to duplicate list
+print('input',list)       
+print('items',newlist)
+print('duplicate items',duplist)    #duplicate items list
